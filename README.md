@@ -10,7 +10,7 @@ You can find the complete & original documentation / instructions for this repo 
 To run the Kafka infrastructure, run: 
 
 ```sh
-docker-compose up
+docker-compose up broker zookeeper
 ```
 Use and connect your client to  **localhost:9092** to publish / subscribe the message. 
 
